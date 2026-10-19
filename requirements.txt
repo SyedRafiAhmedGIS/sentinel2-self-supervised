@@ -1,0 +1,23 @@
+# Core scientific stack
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+scikit-learn>=1.4
+tqdm>=4.66
+joblib>=1.3
+
+# Deep learning (CPU works; a free Colab T4 is enough)
+torch>=2.2
+
+# Geospatial IO & Sentinel-2 access via Microsoft Planetary Computer
+rasterio>=1.3
+affine>=2.3
+dask[array]>=2024.1
+pyproj>=3.6
+pystac-client>=0.7
+planetary-computer>=1.0
+odc-stac>=0.3
+
+# Notebook
+jupyterlab>=4.0
